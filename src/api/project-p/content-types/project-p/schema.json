@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_ps",
+  "info": {
+    "singularName": "project-p",
+    "pluralName": "project-ps",
+    "displayName": "project-p"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}

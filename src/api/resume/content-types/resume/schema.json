@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "box": {
+      "displayName": "box",
+      "type": "component",
+      "repeatable": true,
+      "component": "box.box"
+    }
+  }
+}

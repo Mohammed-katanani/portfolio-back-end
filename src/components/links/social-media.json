@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_links_social_media_s",
+  "info": {
+    "displayName": "social-media ",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

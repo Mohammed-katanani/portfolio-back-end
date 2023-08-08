@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_box_boxes",
+  "info": {
+    "displayName": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lists": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    }
+  }
+}

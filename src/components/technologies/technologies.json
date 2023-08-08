@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_technologies_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "string"
+    }
+  }
+}
