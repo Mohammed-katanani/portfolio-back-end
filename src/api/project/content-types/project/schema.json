@@ -16,9 +16,6 @@
     }
   },
   "attributes": {
-    "myId": {
-      "type": "uid"
-    },
     "title": {
       "type": "string",
       "pluginOptions": {
@@ -47,7 +44,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -63,7 +60,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -82,7 +79,7 @@
       "component": "technologies.technologies",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -93,7 +90,7 @@
       "component": "links.links",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -102,13 +99,16 @@
       "relation": "oneToOne",
       "target": "api::categorie.categorie"
     },
-    "discription": {
-      "type": "richtext",
+    "description": {
+      "displayName": "description",
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "box.description"
     }
   }
 }

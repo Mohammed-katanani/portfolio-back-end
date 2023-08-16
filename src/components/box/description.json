@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_box_descriptions",
+  "info": {
+    "displayName": "description"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.features"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}
