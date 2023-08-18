@@ -4,15 +4,19 @@
   "info": {
     "singularName": "project-p",
     "pluralName": "project-ps",
-    "displayName": "project-p"
+    "displayName": "project-p",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "paragraph": {
-      "type": "richtext"
+    "paragraph_ar": {
+      "type": "text"
+    },
+    "paragraph_en": {
+      "type": "text"
     }
   }
 }
